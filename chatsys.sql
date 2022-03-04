@@ -35,18 +35,6 @@ CREATE TABLE `messages` (
   `msg` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `messages`
---
-
-INSERT INTO `messages` (`msg_id`, `incoming_msg_id`, `outgoing_msg_id`, `msg`) VALUES
-(5, 1636556856, 1240820481, 'hiiiii panduuuu'),
-(6, 1636556856, 1240820481, 'hiiiii panduuuu'),
-(7, 1240820481, 1636556856, 'chepave pandi'),
-(8, 1636556856, 1240820481, 'hello'),
-(9, 1636556856, 1240820481, 'avaritho call matladutunavv');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `users`
@@ -64,13 +52,6 @@ CREATE TABLE `users` (
   `v_sts` varchar(255) DEFAULT 'NV'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`user_id`, `unique_id`, `fname`, `lname`, `email`, `password`, `img`, `status`, `v_sts`) VALUES
-(4, 1240820481, 'Pradeepthi', 'Sornapudi', 'deepu@gmail.com', '25f9e794323b453885f5181f1b624d0b', '16425775471 20180325_104726.jpg', 'Active now', 'V'),
-(5, 1636556856, 'M.N.S', 'Swarup', 'swarupmantripragada@gmail.com', 'e807f1fcf82d132f9bb018ca6738a19f', '1642577573IMG_20201028_133424.jpg', 'Active now', 'V');
 
 -- --------------------------------------------------------
 
